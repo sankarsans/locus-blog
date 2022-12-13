@@ -1,0 +1,97 @@
+// feature tag
+.feature-tag{
+    background: $orange;
+    display: inline-block;
+    padding: 5px 40px 0px;
+    &.small{
+        padding: 0px 20px 0px;
+        margin-bottom: 20px;
+    }
+    &.tag-skew{
+        transform: skewX(-35deg);
+        p{
+            transform: skewX(35deg);
+        }
+    }
+    p{
+        font-family: $font-weight-bold;
+        line-height: 37px;
+        font-size: $font-16;
+        letter-spacing: 0px;
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+
+// heading
+.main-heading{
+    font-family: $font-weight-extrabold;
+    line-height: 42px;
+    font-size: $font-32;
+    letter-spacing: 0px;
+    color: $theme-text;
+    text-transform: uppercase;
+}
+
+.tag-heading{
+    font-family: $font-weight-bold;
+    line-height: 32px;
+    font-size: $font-16;
+    letter-spacing: 0px;
+    color: $theme-text;
+    text-transform: uppercase;
+}
+.sub-heading{
+    font-family: $font-weight-bold;
+    line-height: 30px;
+    font-size: $font-22;
+    letter-spacing: 0px;
+    color: $theme-text;
+    &.text-bold{
+        font-family: $font-weight-extrabold;
+        line-height: 36px;
+        font-size: $font-23;
+    }
+}
+.popular-name{
+    font-family: $font-weight-bold;
+    line-height: 25px;
+    font-size: $font-19;
+    letter-spacing: 0px;
+    color: $theme-text;
+}
+.link-button{
+    font-family: $font-weight-semibold;
+    line-height: 33px;
+    font-size: $font-18;
+    letter-spacing: 0px;
+    color: $link-color;
+    padding: 20px 0 0;
+    display: inline-block;
+    &.link-button-sm{
+        font-family: $font-weight-semibold;
+        line-height: 33px;
+        font-size: $font-16;
+        padding: 10px 0 0;
+    }
+}
+p{
+    font-family: $font-weight-medium;
+    line-height: 24px;
+    font-size: $font-16;
+    letter-spacing: 0px;
+    color: $theme-text;
+}
+
+.theme-heading{
+    .main-heading{
+        padding: 20px 0 40px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+// blog section
+.blog-wrapper{
+    background: $white;
+    box-shadow: 0px 3px 40px $shadow-bg;
+    .wrapper-content{
+        padding: 20px 30px;
+        margin-bottom: 20px;
+        .description{
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+}

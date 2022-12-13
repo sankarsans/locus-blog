@@ -1,0 +1,23 @@
+// breadcrumb css
+.breadcrumb{
+    padding-top: 20px;
+    ul{
+        margin-left: 0;
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                font-family: $font-weight-normal;
+                line-height: 36px;
+                font-size: $font-16;
+                letter-spacing: 0px;
+                color: $theme-text;
+                &.active{
+                    font-family: $font-weight-medium;
+                    line-height: 36px;
+                    font-size: $font-16;
+                }
+            }
+        }
+    }
+}

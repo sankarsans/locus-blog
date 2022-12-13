@@ -1,0 +1,53 @@
+@media only screen and (max-width:767px){
+    .main-heading{
+        text-align: center;
+        font: normal normal 800 24px/36px sharp_sansextrabold;
+    }
+    .sub-heading {
+        font: normal normal bold 16px/25px sharp_sansbold;
+    }
+    p{
+        font: normal normal 500 14px/22px sharp_sansmedium;
+    }
+    .link-button{
+        font: normal normal bold 14px/33px sharp_sanssemibold;
+    }
+    .popular-name {
+        font: normal normal bold 16px/25px sharp_sansbold;
+    }
+    .feature-tag p {
+        font: normal normal 800 12px/32px sharp_sansbold;
+    }
+    .tag-heading {
+        font: normal normal 600 14px/30px sharp_sanssemibold;
+    }
+    .navigation ul li a {
+        font: normal normal bold 12px/10px Sharp Sans;
+        padding: 17px 12px 13px;
+    }
+    .events-section{
+        text-align: center;
+        .btn{
+            margin-right: 0!important;
+            margin-top: 20px;
+        }
+    }
+    .navigation{
+        text-align: center;
+    }
+    .subscribe-section{
+        text-align: center;
+        input[type="text"]{
+            margin: 25px 0;
+            width: 100%;
+        }
+    }
+    .banner-heading {
+        font: normal normal bold 18px/26px sharp_sansbold;
+    }
+    .banner-wrapper{
+        background: $white 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 40px #AFAFAF26;
+        padding: 10px 25px;
+    }
+}

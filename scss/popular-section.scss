@@ -1,0 +1,31 @@
+
+// most popular section
+.popular-section{
+    .blog-wrapper{
+        background: $light-bg;
+    }
+    .tag-heading{
+        padding-bottom: 10px;
+    }
+    .wrapper-content{
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .author-wrapper{
+        padding-top: 15px;
+        img{
+            width: 40px;
+        }
+        p{
+            font-family: $font-weight-medium;
+            line-height: 30px;
+            font-size: $font-16;
+            &.publish-date{
+                padding-left: 20px;
+            }
+            &.author-name{
+                padding-left: 10px;
+            }
+        }
+    }   
+}

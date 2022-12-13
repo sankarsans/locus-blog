@@ -1,0 +1,20 @@
+
+// events section
+.events-section{
+    background: $light-bg;
+    .btn{
+        background: $link-color;
+        font-family: $font-weight-bold;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: $white;
+        border-radius: 0;
+        position: relative;
+        outline: 2px solid $link-color;
+        outline-offset: 2px;
+        padding: 10px 40px;
+        &:first-child{
+            margin-right: 40px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+AddType application/x-httpd-php .html .htm
+<IfModule mod_headers.c>
+  <FilesMatch ".(js|css|xml|gz|html|svg)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>

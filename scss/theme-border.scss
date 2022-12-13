@@ -1,0 +1,28 @@
+.theme-border{
+    position: absolute;
+    top: -16px;
+    width: 106%;
+    left: 0;
+    ul{
+        margin-left: 0;
+        list-style: none;
+        li{
+            height: 5px;
+            display: inline-block;
+            width: 24%;
+            &:nth-child(1){
+                background: #17B5F0;
+            }
+            &:nth-child(2){
+                background: #04D173;
+            }
+            &:nth-child(3){
+                background: #04D173;
+            }
+            &:nth-child(4){
+                background: $orange;
+            }
+        }
+    }
+}
+
