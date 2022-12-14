@@ -1,0 +1,15 @@
+.table-content{
+    background: $light-bg;
+    padding: 30px;
+    margin-top: 50px;
+    ul{
+        list-style: auto;
+        li{
+            font-family: $font-weight-medium;
+            line-height: 38px;
+        }
+    }
+    h2{
+        font-family: $font-weight-bold;
+    }
+}

@@ -17,7 +17,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>
@@ -37,7 +37,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>
@@ -57,7 +57,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>
@@ -77,7 +77,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>
@@ -97,7 +97,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>
@@ -117,7 +117,7 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="" class="link-button link-button-sm">Read more ></a>
+            <a href="details.php" class="link-button link-button-sm">Read more ></a>
          </div>
       </div>
    </div>

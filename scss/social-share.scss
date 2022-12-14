@@ -1,0 +1,100 @@
+.social-share{
+    opacity: 1;
+    transition: opacity 1s;
+    padding-top: 60px;
+
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            width:18%;
+            text-align: center;
+            cursor: pointer;
+            a{
+                font-family: $font-weight-normal;
+                font-size: $font-14;
+                line-height: 26px;
+                letter-spacing: 0px;
+                color: $theme-text;
+                text-align: center;
+                display: inline-block;
+                span{
+                    display: block;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+    .scroll-heading{
+        display: none;
+        transition: all 0.5s;
+    }
+    &.fixed-top{
+        position: fixed;
+        top: 0;
+        padding: 0 50px;
+        transition: all 0.5s;
+        background: $white;
+        border-bottom: solid 1px $grey-bg;
+        display: flex;
+        align-items: center;
+        .share-option {
+            position: absolute;
+            bottom: -152px;
+            left: 0;
+            width: 42%;
+            padding: 10px 20px;
+        }
+        .sub-heading {
+            font-family: "sharp_sansmedium";
+            line-height: 24px;
+            font-size: 16px;
+            margin-top: 17px;
+        }
+        .scroll-heading{
+            display: inline-block;
+            transition: all 0.5s;
+            width: 70%;
+        }
+        ul{
+            display: inline-block;
+            width:28%;
+            margin-bottom: 0;
+            padding: 8px 0 5px;
+            li{
+                a{
+                    img{
+                        width: 16px;
+                    }
+                    span{
+                        font-size: 12px;
+                        padding-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .share-option{
+        position: absolute;
+        bottom: -180px;
+        background: $white;
+        padding: 15px 30px;    
+        box-shadow: 0px 3px 40px $shadow-bg;
+        width: 200px;
+        li{
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 4px 0;
+            a{
+
+            }
+        }
+        &.hide {
+            display: none;
+            opacity: 0;
+        }
+    }
+    
+}
+  

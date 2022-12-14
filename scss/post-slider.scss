@@ -1,0 +1,33 @@
+.post-splide{
+    position: relative;
+    p{
+        line-height: 24px;
+    }
+    .splide__slide{
+        height: 550px!important;
+    }
+    .blog-wrapper{
+        margin: 0 15px;
+    }
+    .splide__arrows{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .splide__track{
+        padding-top: 50px;
+    }
+    .splide__arrow{
+        width: 140px;
+        background: transparent;
+        transform: none;
+        color: $link-color;
+        font-family: $font-weight-bold;
+        &.splide__arrow--prev{
+            left: 0;
+        }
+        &.splide__arrow--next{
+            right: 0;
+        }
+    }
+}

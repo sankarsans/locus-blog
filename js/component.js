@@ -12,13 +12,16 @@ function myFunction() {
 
 // progress bar hide/show
 progressBar = document.getElementById("header");
+socialShareOption = document.getElementById("social-share");
 
 var myScrollFunc = function () {
     var y = window.scrollY;
     if (y >= 800) {
       progressBar.className = "header visible"
+      socialShareOption.className = "social-share fixed-top"
     } else {
       progressBar.className = "header d-none"
+      socialShareOption.className = "social-share"
     }
 };
 
@@ -44,3 +47,14 @@ var myScrollFunc = function () {
 
 window.addEventListener("scroll", myScrollFunc);
 
+
+
+// social share hide/show
+function socialShare(){
+  var socialShare = document.getElementById("shareOption");
+  if (socialShare.classList.contains("hide")) {
+    socialShare.classList.remove("hide");
+  } else {
+    socialShare.classList.add("hide");
+  }
+}

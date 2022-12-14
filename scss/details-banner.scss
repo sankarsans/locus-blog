@@ -1,0 +1,11 @@
+.details-banner{
+    p{
+        line-height: 29px;
+
+        a{
+            font-family: $font-weight-bold;
+            color: $link-color;
+            text-decoration: underline;
+        }
+    }
+}
