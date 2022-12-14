@@ -11,13 +11,13 @@
             display: inline-block;
             width: 24%;
             &:nth-child(1){
-                background: #17B5F0;
+                background: $light-blue;
             }
             &:nth-child(2){
-                background: #04D173;
+                background: $light-green;
             }
             &:nth-child(3){
-                background: #04D173;
+                background: $green;
             }
             &:nth-child(4){
                 background: $orange;

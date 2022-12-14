@@ -10,3 +10,6 @@ AddType application/x-httpd-php .html .htm
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
+
+AddType text/css.css
+AddType text/javascript.js

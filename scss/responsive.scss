@@ -1,28 +1,36 @@
 @media only screen and (max-width:767px){
     .main-heading{
         text-align: center;
-        font: normal normal 800 24px/36px sharp_sansextrabold;
+        font-size: $font-24;
+        line-height: 36px;
     }
     .sub-heading {
-        font: normal normal bold 16px/25px sharp_sansbold;
+        font-size: $font-16;
+        line-height: 25px;
     }
     p{
-        font: normal normal 500 14px/22px sharp_sansmedium;
+        font-size: $font-14;
+        line-height: 22px;
     }
     .link-button{
-        font: normal normal bold 14px/33px sharp_sanssemibold;
+        font-size: $font-14;
+        line-height: 33px;
     }
     .popular-name {
-        font: normal normal bold 16px/25px sharp_sansbold;
+        font-size: $font-16;
+        line-height: 25px;
     }
     .feature-tag p {
-        font: normal normal 800 12px/32px sharp_sansbold;
+        font-size: $font-12;
+        line-height: 32px;
     }
     .tag-heading {
-        font: normal normal 600 14px/30px sharp_sanssemibold;
+        font-size: $font-14;
+        line-height: 30px;
     }
     .navigation ul li a {
-        font: normal normal bold 12px/10px Sharp Sans;
+        font-size: $font-12;
+        line-height: 10px;
         padding: 17px 12px 13px;
     }
     .events-section{
@@ -43,11 +51,12 @@
         }
     }
     .banner-heading {
-        font: normal normal bold 18px/26px sharp_sansbold;
+        font-size: $font-18;
+        line-height: 26px;
     }
     .banner-wrapper{
-        background: $white 0% 0% no-repeat padding-box;
-        box-shadow: 0px 3px 40px #AFAFAF26;
+        background: $white;
+        box-shadow: 0px 3px 40px $shadow-bg;
         padding: 10px 25px;
     }
 }
