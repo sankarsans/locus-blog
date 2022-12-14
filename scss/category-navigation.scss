@@ -1,0 +1,33 @@
+.category-navigation{
+    background-color: $dark-black;
+    padding: 15px 0 10px;
+   .dropdown{
+        border-right: 1px solid $border-light;
+        padding-top: 5px;
+    .dropdown-toggle{
+        background-color: transparent;
+        border: 0;
+        &:focus{
+            background-color: transparent;
+        }
+        &::after{
+            background: url(../images/icon-dropdown.svg) 5px 0 no-repeat;
+            background-size: 10px;
+            width: 20px;
+            height: 15px;
+            border: none;
+            position: absolute;
+            top: 15px;
+        }
+    }
+   }
+    input{
+        background-color: $sky-blue;
+        border: none!important;
+        border-radius: 0;
+        width: 100%;
+        color: $white;
+        padding: 10px 20px;
+        margin-bottom: 7px;
+    }
+}

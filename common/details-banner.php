@@ -2,7 +2,7 @@
 <section class="banner details-banner">
    <div class="container">
       <div class="row">
-         <div class="col-12 col-lg-7 col-md-12">
+         <div class="col-12 col-lg-8 col-md-12">
             <div class="banner-wrapper">
                <h4 class="tag-heading pt-4">CATEGORY</h4>
                <h2 class="banner-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision on
@@ -46,7 +46,7 @@
 
             </div>
          </div>
-         <div class="col-12 col-lg-5 col-md-12">
+         <div class="col-12 col-lg-4 col-md-12">
             <?php include('common/social-share.php');?>
             <?php include('common/most-popular.php');?>
             <?php include('common/picks.php');?>

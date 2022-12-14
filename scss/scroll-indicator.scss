@@ -1,17 +1,18 @@
 .progress-container {
   width: 100%;
   height: 3px;
-  background: #ccc;
+  background: $white;
   margin-top: 65px;
 }
 
 .progress-bar {
   height: 3px;
-  background: #04AA6D;
+  background: $link-color;
   width: 0%;
 }
 
 .header {
   position: fixed;
   width: 100%;
+  z-index: 99;
 }

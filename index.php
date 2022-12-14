@@ -5,13 +5,12 @@
     <?php include('common/header-include.php');?>
 </head>
 
-<body>
-
-        <?php include('common/progress-bar.php');?>
-        
+<body>        
         <?php include('common/breadcrumb.php');?>
 
         <?php include('common/banner.php');?>
+
+        <?php include('common/category-navigation.php');?>
 
         <!-- latest blogs start-->
         <section class="latest-blog sec-padding">

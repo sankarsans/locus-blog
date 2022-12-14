@@ -31,14 +31,12 @@ window.addEventListener("scroll", myScrollFunc);
 // subscribe button hide/show
 subscribeButton = document.getElementById("subscribeButton");
 
-
-
 var myScrollFunc = function () {
     var y = window.scrollY;
     if (y >= 1200) {
-      subscribeButton.className = "subscribe-section sec-padding subscribe-fixed"
+      subscribeButton.className = "subscribe-section subscribe-inner subscribe-fixed"
     } else {
-      subscribeButton.className = "subscribe-section sec-padding"
+      subscribeButton.className = "subscribe-section subscribe-inner"
     }
     // else if(window.innerHeight + window.scrollY > document.body.clientHeight){
     //   document.getElementById("subscribeButton").classList.add('d-none')
@@ -49,12 +47,23 @@ window.addEventListener("scroll", myScrollFunc);
 
 
 
-// social share hide/show
+// social icon share hide/show
 function socialShare(){
   var socialShare = document.getElementById("shareOption");
   if (socialShare.classList.contains("hide")) {
     socialShare.classList.remove("hide");
   } else {
     socialShare.classList.add("hide");
+  }
+}
+
+
+// details page accordian
+function accordianOpen(){
+  var accordian = document.getElementById("accordian");
+  if (accordian.classList.contains("hide")) {
+    accordian.classList.remove("hide");
+  } else {
+    accordian.classList.add("hide");
   }
 }

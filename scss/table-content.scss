@@ -2,14 +2,49 @@
     background: $light-bg;
     padding: 30px;
     margin-top: 50px;
+    .accordion{
+        transition: all 0.5s;
+        &.hide {
+            opacity: 0;
+            transition: all 0.5s;
+            display: none;
+        }
+       .accordion-item{
+            border: none;
+            background: transparent;
+            .accordion-header{
+                border: none;
+                .accordion-button{
+                    border: none;
+                    background: transparent;
+                    font-family: $font-weight-medium;
+                    line-height: 38px;
+                    font-size: $font-16;
+                    padding: 0;
+                    &:focus{
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+       }
+       .accordion-body{
+            padding: 0;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            font-family: $font-weight-medium;
+            line-height: 24px;
+            font-size: $font-14;
+       }
+       .accordion-collapse{
+        border: none;
+       }
+    }
     ul{
         list-style: auto;
         li{
             font-family: $font-weight-medium;
             line-height: 38px;
         }
-    }
-    h2{
-        font-family: $font-weight-bold;
     }
 }

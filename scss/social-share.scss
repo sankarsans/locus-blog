@@ -18,6 +18,9 @@
                 color: $theme-text;
                 text-align: center;
                 display: inline-block;
+                img{
+                    width: 20px;
+                }
                 span{
                     display: block;
                     padding-top: 10px;
@@ -42,8 +45,13 @@
             position: absolute;
             bottom: -152px;
             left: 0;
-            width: 42%;
-            padding: 10px 20px;
+            width: 60%;
+            padding: 15px 20px;
+            a{
+                img{
+                    width: 40px;
+                }
+            }
         }
         .sub-heading {
             font-family: "sharp_sansmedium";
@@ -87,7 +95,10 @@
             text-align: left;
             padding: 4px 0;
             a{
-
+                img{
+                    width: 40px;
+                    padding-right: 10px;
+                }
             }
         }
         &.hide {

@@ -4,7 +4,9 @@
 <div class="blog-wrapper">
    <a href="">
       <div class="wrapper-content">
-         hjekjkj
+         <img src="images/twitter-feed.png" class="img-fluid mb-3" alt="">
+         <img src="images/twitter-feed.png" class="img-fluid mb-3" alt="">
+
       </div>
    </a>
 </div>

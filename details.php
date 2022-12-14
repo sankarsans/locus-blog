@@ -17,7 +17,7 @@
 
         <?php include('common/author-info.php');?>
 
-        <?php include('common/subscribe.php');?>
+        <?php include('common/subscribe-inner.php');?>
         
     </div>
 
