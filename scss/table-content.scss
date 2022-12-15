@@ -18,7 +18,7 @@
                     border: none;
                     background: transparent;
                     font-family: $font-weight-medium;
-                    line-height: 38px;
+                    line-height: 30px;
                     font-size: $font-16;
                     padding: 0;
                     &:focus{
@@ -29,9 +29,6 @@
             }
        }
        .accordion-body{
-            padding: 0;
-            padding-top: 15px;
-            padding-bottom: 20px;
             font-family: $font-weight-medium;
             line-height: 24px;
             font-size: $font-14;

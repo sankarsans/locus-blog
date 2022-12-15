@@ -15,6 +15,11 @@
         type: 'loop',
         margin: '10%',
         perPage: 2,
+        breakpoints: {
+            767: {
+                perPage: 1,
+            },
+        },
         autoHeight: boolean = true,
         throttle: 300,
         perMove: 1,

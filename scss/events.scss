@@ -3,3 +3,13 @@
 .events-section{
     background: $light-bg;
 }
+
+@media only screen and (max-width:767px){
+    .events-section{
+        text-align: center;
+        .btn{
+            margin-right: 0!important;
+            margin-top: 20px;
+        }
+    }
+}

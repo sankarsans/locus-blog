@@ -38,3 +38,16 @@
         margin-right: 30px;
     }
 }
+
+@media only screen and (max-width:767px){
+    .subscribe-section{
+        text-align: center;
+        input[type="text"]{
+            margin: 25px 0;
+            width: 100%;
+        }
+    }
+    .subscribe-section.subscribe-fixed{
+        display: none;
+    }
+}
