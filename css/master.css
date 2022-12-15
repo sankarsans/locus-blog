@@ -427,6 +427,8 @@ p {
   background: #FAF5F2;
   padding: 30px;
   margin-top: 50px; }
+  .table-content .sub-heading span {
+    cursor: pointer; }
   .table-content .accordion {
     transition: all 0.5s; }
     .table-content .accordion.hide {
