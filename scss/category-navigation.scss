@@ -19,6 +19,7 @@
     .dropdown-toggle{
         background-color: transparent;
         border: 0;
+        font-family: $font-weight-bold;
         &:focus{
             background-color: transparent;
         }

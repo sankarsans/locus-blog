@@ -1,0 +1,31 @@
+.category-type{
+    ul{
+        white-space:nowrap;
+        overflow: auto;
+        border-bottom: 1px solid $grey-border;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+        padding: 40px 0 5px;
+
+        &::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+        li{
+            list-style: none;
+            display:inline;
+            padding: 0 10px;
+            a{
+                font-family: $font-weight-medium;
+                font-size: $font-17;
+                line-height: 30px;
+                letter-spacing: 0px;
+                color: $theme-text;
+                padding: 10px 10px;
+
+                &.active{
+                    border-bottom: 2px solid $theme-text;
+                }
+            }
+        }
+    }
+}
