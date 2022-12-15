@@ -690,4 +690,8 @@ a {
 .sec-padding {
   padding: 60px 0; }
 
+@media only screen and (max-width: 767px) {
+  body, html {
+    overflow-x: hidden; } }
+
 /*# sourceMappingURL=master.css.map */
