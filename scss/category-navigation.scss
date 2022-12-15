@@ -1,6 +1,18 @@
 .category-navigation{
     background-color: $dark-black;
     padding: 15px 0 10px;
+    .input-group-append{
+        border-radius: 0;
+        background: $sky-blue;
+        height: 44px;
+        button{
+            background-color: transparent!important;
+            border: 0!important;
+            img{
+                width: 30px;
+            }
+        }
+    }
    .dropdown{
         border-right: 1px solid $border-light;
         padding-top: 5px;
@@ -41,5 +53,11 @@
     }
     .navigation{
         text-align: center;
+    }
+    .category-navigation{
+        .dropdown{
+            border-right: 0;
+            margin-bottom: 10px;
+        }
     }
 }

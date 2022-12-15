@@ -30,7 +30,7 @@
                         <input class="form-control border-end-0 border" placeholder="Search" id="example-search-input">
                         <span class="input-group-append">
                             <button class="btn btn-outline-secondary bg-white border-bottom-0 border rounded-pill ms-n5" type="button">
-                                <i class="fa fa-search"></i>
+                                <img src="images/icons8-search.svg" alt="">
                             </button>
                         </span>
                     </div>

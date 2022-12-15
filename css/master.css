@@ -621,6 +621,15 @@ p {
 .category-navigation {
   background-color: #290A38;
   padding: 15px 0 10px; }
+  .category-navigation .input-group-append {
+    border-radius: 0;
+    background: #452966;
+    height: 44px; }
+    .category-navigation .input-group-append button {
+      background-color: transparent !important;
+      border: 0 !important; }
+      .category-navigation .input-group-append button img {
+        width: 30px; }
   .category-navigation .dropdown {
     border-right: 1px solid #B065FF;
     padding-top: 5px; }
@@ -653,7 +662,11 @@ p {
     padding: 17px 12px 13px; }
 
   .navigation {
-    text-align: center; } }
+    text-align: center; }
+
+  .category-navigation .dropdown {
+    border-right: 0;
+    margin-bottom: 10px; } }
 body,
 div,
 p {
