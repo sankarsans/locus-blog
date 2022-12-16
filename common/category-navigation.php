@@ -1,4 +1,4 @@
-<div class="category-navigation">
+<section class="category-navigation">
    <div class="container">
         <div class="row">
                 <div class="col-12 col-lg-4 col-md-6">
@@ -25,7 +25,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 col-md-6">
+                <div class="col-12 col-lg-4 col-md-12">
                     <div class="input-group">
                         <input class="form-control border-end-0 border" placeholder="Search" id="example-search-input">
                         <span class="input-group-append">
@@ -37,4 +37,4 @@
                 </div>
             </div>
    </div>
-</div>
+</section>

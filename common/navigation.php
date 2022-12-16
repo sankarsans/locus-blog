@@ -1,9 +1,13 @@
-<div class="navigation sec-padding">
-   <ul class="ps-0">
-      <li><a href="">< Previous</a></li>
-      <li><a href="">1</a></li>
-      <li><a href="" class="active">2</a></li>
-      <li><a href="">3</a></li>
-      <li><a href="">< Next</a></li>
-   </ul>
-</div>
+<nav aria-label="Page navigation example" class="navigation">
+  <ul class="pagination justify-content-center justify-content-lg-start">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">< Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link active" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next ></a>
+    </li>
+  </ul>
+</nav>

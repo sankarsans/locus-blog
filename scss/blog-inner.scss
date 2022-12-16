@@ -2,9 +2,16 @@
 .blog-wrapper{
     background: $white;
     box-shadow: 0px 3px 40px $shadow-bg;
+    border: none;
+    .card-footer{
+        background-color: $white;
+        border: none;
+        a{
+            padding: 10px 15px 10px;
+        }
+    }
     .wrapper-content{
-        padding: 20px 30px;
-        margin-bottom: 20px;
+        padding: 20px 30px 0;
         .description{
             overflow: hidden;
             display: -webkit-box;

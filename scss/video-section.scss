@@ -1,7 +1,14 @@
 // video section
 .video-section{
     background-color: $theme-text;
-    
+    .splide__list{
+        display: flex!important;
+        li{
+            display: inline-block;
+            width: 33%;
+            padding: 0 10px;
+        }
+    }
     .video-wrapper{
         margin-bottom: 30px;
         p{

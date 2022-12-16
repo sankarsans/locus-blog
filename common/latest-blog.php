@@ -1,10 +1,10 @@
 <img src="images/element.svg" alt="" class="img-fluid">
 <h2 class="main-heading">LOCUS LATEST BLOGS</h2>
-<div class="row">
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
          <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
-         <div class="wrapper-content">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -17,14 +17,16 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
-         <img src="images/image-bukalapak.png" alt="" class="img-fluid">
-         <div class="wrapper-content">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
+         <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -37,14 +39,16 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
-         <img src="images/image-bukalapak.png" alt="" class="img-fluid">
-         <div class="wrapper-content">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
+         <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -57,14 +61,16 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
-         <img src="images/image-bukalapak.png" alt="" class="img-fluid">
-         <div class="wrapper-content">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
+         <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -77,14 +83,16 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
-         <img src="images/image-bukalapak.png" alt="" class="img-fluid">
-         <div class="wrapper-content">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
+         <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -97,14 +105,16 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
-   <div class="col-12 col-lg-6 col-md-6">
-      <div class="blog-wrapper">
-         <img src="images/image-bukalapak.png" alt="" class="img-fluid">
-         <div class="wrapper-content">
+   <div class="col mb-4">
+      <div class="card h-100 blog-wrapper">
+         <img src="images/image-bukalapak.png" class="img-fluid" alt="" class="img-fluid">
+         <div class="card-body wrapper-content">
             <h4 class="tag-heading">CATEGORY</h4>
             <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision
             </h2>
@@ -117,7 +127,9 @@
                peak. A consumer survey showed that 55% of consumers will switch their retail brands
                if they find their delivery times are too slow.
             </p>
-            <a href="details.php" class="link-button link-button-sm">Read more ></a>
+         </div>
+         <div class="card-footer">
+            <a href="details.php" class="link-button link-button-sm">Read more</a>
          </div>
       </div>
    </div>
