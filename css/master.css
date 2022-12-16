@@ -260,7 +260,8 @@ p {
           border: 1px solid #14B5F0 !important; }
 
 .video-section {
-  background-color: #290A38; }
+  background: #290A38;
+  background-size: cover; }
   .video-section .splide__list {
     display: flex !important; }
     .video-section .splide__list li {
@@ -308,11 +309,23 @@ p {
 
 .subscribe-section {
   background: #422661;
+  background-size: cover;
   box-shadow: 0px 3px 40px #AFAFAF26;
   position: relative;
   transition: all 1s;
   z-index: 99;
-  padding: 40px 0; }
+  padding: 40px 0;
+  position: relative; }
+  .subscribe-section::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #14b4ef;
+    background: linear-gradient(90deg, #14b4ef 0%, #14b4ef 25%, #00d273 25%, #00d273 50%, #b066ff 50%, #b066ff 75%, #ff6429 75%, #ff6429 100%); }
   .subscribe-section.subscribe-inner {
     transform: translateY(100%);
     background: #FFFFFF; }

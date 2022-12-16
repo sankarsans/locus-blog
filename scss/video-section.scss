@@ -1,6 +1,7 @@
 // video section
 .video-section{
-    background-color: $theme-text;
+    background: $theme-text;
+    background-size: cover;
     .splide__list{
         display: flex!important;
         li{

@@ -1,13 +1,5 @@
 <!-- subscribe start -->     
 <section class="subscribe-section subscribe-inner" id="subscribeButton">
-   <div class="theme-border">
-      <ul class="ps-0">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-   </div>
    <div class="container">
       <div class="row align-items-center">
          <div class="col-12 col-lg-5 col-md-6">
