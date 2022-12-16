@@ -5,7 +5,9 @@ function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
+  if(document.getElementById("myBar")){
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
 }
 
 
@@ -15,6 +17,7 @@ progressBar = document.getElementById("header");
 socialShareOption = document.getElementById("social-share");
 
 var myScrollFunc = function () {
+  if(socialShareOption){
     var y = window.scrollY;
     if (y >= 800) {
       progressBar.className = "header visible"
@@ -23,6 +26,7 @@ var myScrollFunc = function () {
       progressBar.className = "header d-none"
       socialShareOption.className = "social-share"
     }
+  }
 };
 
 window.addEventListener("scroll", myScrollFunc);
@@ -32,12 +36,14 @@ window.addEventListener("scroll", myScrollFunc);
 subscribeButton = document.getElementById("subscribeButton");
 
 var myScrollFunc = function () {
+  if(subscribeButton){
     var y = window.scrollY;
     if (y >= 1200) {
       subscribeButton.className = "subscribe-section subscribe-inner subscribe-fixed"
     } else {
       subscribeButton.className = "subscribe-section subscribe-inner"
     }
+  }
     // else if(window.innerHeight + window.scrollY > document.body.clientHeight){
     //   document.getElementById("subscribeButton").classList.add('d-none')
     // } 

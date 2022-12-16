@@ -25,11 +25,13 @@
                     destroy: false,
                     perPage: 2,
                     height: 450,
+                    pagination : true,
                 },
                 766.98: {
                     destroy: false,
                     perPage: 1,
-                    height: 400
+                    height: 400,
+                    pagination : true,
                 },
             },
         } ).mount();
@@ -55,11 +57,13 @@
                     destroy: false,
                     perPage: 2,
                     height: 450,
+                    pagination : true,
                 },
                 766.98: {
                     destroy: false,
                     perPage: 1,
-                    height: 400
+                    height: 400,
+                    pagination : true,
                 },
             },
         } ).mount();
