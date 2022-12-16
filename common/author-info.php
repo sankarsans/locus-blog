@@ -1,4 +1,4 @@
-<div class="author-info">
+<section class="author-info">
     <div class="container">
         <div class="row author-info-wrapper">
             <div class="col-12 col-lg-2 col-md-3">
@@ -13,4 +13,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

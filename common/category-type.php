@@ -1,4 +1,4 @@
-<div class="category-type">
+<section class="category-type">
     <div class="container">
         <ul class="ps-0">
             <li><a href="" class="active">E-Commerce</a></li> 
@@ -13,4 +13,4 @@
             <li><a href="">3PL</a></li>
         </ul>
     </div>
-</div>
+</section>

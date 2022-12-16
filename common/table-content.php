@@ -1,4 +1,4 @@
-<div class="table-content">
+<section class="table-content">
     <h2 class="sub-heading d-flex justify-content-between" >Table of Contents <span onclick="accordianOpen()">icon</span></h2>
     <div class="accordion pt-3" id="accordian">
         <div class="accordion-item">
@@ -54,5 +54,5 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 

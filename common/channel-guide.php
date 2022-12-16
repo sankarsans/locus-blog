@@ -1,4 +1,4 @@
-<div class="channel-guide">
+<section class="channel-guide">
     <div class="text-center">
         <img src="images/element.svg" class="img-fluid" alt="">
         <h2 class="main-heading pt-2">GET OUR GUIDE TO OMNICHANNEL RETAIL FULFILLMENT</h2>
@@ -21,4 +21,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

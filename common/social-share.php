@@ -1,4 +1,4 @@
-<div class="social-share" id="social-share">
+<section class="social-share" id="social-share">
     <div class="scroll-heading">
         <h2 class="sub-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision on Last-Mile Software Solution</h2>
     </div>
@@ -14,4 +14,4 @@
         <li><a href=""><img src="images/icon-download.svg" class="img-fluid"><span>Download</span></a></li>
         <li><a href=""><img src="images/icon-plus.svg" class="img-fluid"><span>Other</span></a></li>
     </ul>
-</div>
+</section>
