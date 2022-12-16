@@ -18,6 +18,9 @@
                 <div class="row">
                     <div class="col-12 col-lg-8 col-md-12 theme-heading">
                         <?php include('common/latest-blog.php');?>
+
+                        <?php include('common/navigation.php');?>
+
                     </div>
                     <div class="col-12 col-lg-4 col-md-12 popular-section">
                         
@@ -29,7 +32,6 @@
                     </div>
                 </div>
 
-                <?php include('common/navigation.php');?>
             </div>
         </section>
         <!-- latest blogs end-->
