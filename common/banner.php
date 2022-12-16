@@ -22,7 +22,7 @@
                <p>Consumer expectations around last-mile fulfillment are their peak. A consumer survey showed that
                   55% of consumers will switch their retail brands if they find their delivery times are too slow.
                </p>
-               <a href="" class="link-button link-button-sm">Read more</a>
+               <a href="" class="link-button link-button-sm pt-3">Read more</a>
             </div>
          </div>
       </div>

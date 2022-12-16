@@ -16,6 +16,11 @@
    .dropdown{
         border-right: 1px solid $border-light;
         padding-top: 5px;
+        li{
+            a{
+                cursor: pointer;
+            }
+        }
     .dropdown-toggle{
         background-color: transparent;
         border: 0;

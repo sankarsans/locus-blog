@@ -6,6 +6,7 @@
     &.small{
         padding: 0px 20px 0px;
         margin-bottom: 20px;
+        margin-top: 30px;
     }
     &.tag-skew{
         transform: skewX(-35deg);
@@ -139,11 +140,7 @@ p{
 
 
 @media only screen and (max-width:991.98px){
-    .feature-tag{
-        &.small{
-            margin-top: 30px;
-        }
-    }
+   
 }
 
 

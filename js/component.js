@@ -73,3 +73,14 @@ function accordianOpen(){
     accordian.classList.add("hide");
   }
 }
+
+
+$('#category-dropdown li').on('click', function(){
+  $("#categoryMenu").text($(this).text());
+  $("#categoryMenu").val($(this).text());
+});
+
+$('#subcategory-dropdown li').on('click', function(){
+  $("#subCategoryMenu").text($(this).text());
+  $("#subCategoryMenu").val($(this).text());
+});

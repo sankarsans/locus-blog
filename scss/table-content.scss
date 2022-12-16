@@ -17,6 +17,7 @@
        .accordion-item{
             border: none;
             background: transparent;
+            padding-bottom: 10px;
             .accordion-header{
                 border: none;
                 .accordion-button{
@@ -26,6 +27,26 @@
                     line-height: 30px;
                     font-size: $font-16;
                     padding: 0;
+                    display: flex;
+                    align-items: baseline;
+
+                    &::after{
+                        display: none;
+                    }
+                    &.collapsed{
+                        img{
+                            transform: rotate(180deg);
+                            transition: 0.5s;
+                            margin-left: 13px;
+                        }
+                    }
+                    span{
+                        padding-right: 13px;
+                    }
+                    img{
+                        margin-left: 13px;
+                        transition: 0.5s;
+                    }
                     &:focus{
                         outline: none;
                         box-shadow: none;

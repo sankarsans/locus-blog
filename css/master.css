@@ -20,7 +20,8 @@
   padding: 5px 40px 0px; }
   .feature-tag.small {
     padding: 0px 20px 0px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-top: 30px; }
   .feature-tag.tag-skew {
     transform: skewX(-35deg); }
     .feature-tag.tag-skew p {
@@ -134,9 +135,6 @@ p {
   outline-offset: 2px;
   padding: 10px 40px; }
 
-@media only screen and (max-width: 991.98px) {
-  .feature-tag.small {
-    margin-top: 30px; } }
 @media only screen and (max-width: 767.98px) {
   .main-heading {
     text-align: center;
@@ -488,7 +486,8 @@ p {
       display: none; }
     .table-content .accordion .accordion-item {
       border: none;
-      background: transparent; }
+      background: transparent;
+      padding-bottom: 10px; }
       .table-content .accordion .accordion-item .accordion-header {
         border: none; }
         .table-content .accordion .accordion-item .accordion-header .accordion-button {
@@ -497,7 +496,20 @@ p {
           font-family: "sharp_sansmedium";
           line-height: 30px;
           font-size: 1rem;
-          padding: 0; }
+          padding: 0;
+          display: flex;
+          align-items: baseline; }
+          .table-content .accordion .accordion-item .accordion-header .accordion-button::after {
+            display: none; }
+          .table-content .accordion .accordion-item .accordion-header .accordion-button.collapsed img {
+            transform: rotate(180deg);
+            transition: 0.5s;
+            margin-left: 13px; }
+          .table-content .accordion .accordion-item .accordion-header .accordion-button span {
+            padding-right: 13px; }
+          .table-content .accordion .accordion-item .accordion-header .accordion-button img {
+            margin-left: 13px;
+            transition: 0.5s; }
           .table-content .accordion .accordion-item .accordion-header .accordion-button:focus {
             outline: none;
             box-shadow: none; }
@@ -686,6 +698,8 @@ p {
   .category-navigation .dropdown {
     border-right: 1px solid #B065FF;
     padding-top: 5px; }
+    .category-navigation .dropdown li a {
+      cursor: pointer; }
     .category-navigation .dropdown .dropdown-toggle {
       background-color: transparent;
       border: 0;
