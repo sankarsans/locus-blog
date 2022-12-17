@@ -2,6 +2,13 @@
 .video-section{
     background: $theme-text;
     background-size: cover;
+    iframe{
+        height: 100%;
+        width: 100%;    
+    }
+    .iframe-wrapper{
+        height: 218px;
+    }
     .splide__list{
         display: flex!important;
         li{

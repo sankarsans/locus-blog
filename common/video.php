@@ -10,7 +10,12 @@
                <ul class="splide__list">
                   <li class="splide__slide">
                      <div class="video-wrapper">
-                        <img src="images/video-bg.png" alt="" class="img-fluid">
+                        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                           <img src="images/video-bg.png" alt="" class="img-fluid" style="cursor:pointer" />
+                        </div>
+                        <div class="iframe-wrapper" style="display:none">
+                           <iframe src="https://www.youtube.com/embed/87sQ14L2_-4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        </div>
                         <div class="wrapper-content">
                            <h2 class="sub-heading text-white">Lorem Ipsum Dolor Sit Amet Neque Porro Consectetur Sed Do
                            </h2>
@@ -24,7 +29,12 @@
                   </li>
                   <li class="splide__slide">
                      <div class="video-wrapper">
-                        <img src="images/video-bg.png" alt="" class="img-fluid">
+                        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                           <img src="images/video-bg.png" alt="" class="img-fluid" style="cursor:pointer" />
+                        </div>
+                        <div class="iframe-wrapper" style="display:none">
+                           <iframe src="https://www.youtube.com/embed/87sQ14L2_-4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        </div>   
                         <div class="wrapper-content">
                            <h2 class="sub-heading text-white">Lorem Ipsum Dolor Sit Amet Neque Porro Consectetur Sed Do
                            </h2>
@@ -38,7 +48,12 @@
                   </li>
                   <li class="splide__slide">
                      <div class="video-wrapper">
-                        <img src="images/video-bg.png" alt="" class="img-fluid">
+                        <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                           <img src="images/video-bg.png" alt="" class="img-fluid" style="cursor:pointer" />
+                        </div>
+                        <div class="iframe-wrapper" style="display:none">
+                           <iframe src="https://www.youtube.com/embed/87sQ14L2_-4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        </div>
                         <div class="wrapper-content">
                            <h2 class="sub-heading text-white">Lorem Ipsum Dolor Sit Amet Neque Porro Consectetur Sed Do
                            </h2>

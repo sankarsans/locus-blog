@@ -262,6 +262,11 @@ p {
 .video-section {
   background: #290A38;
   background-size: cover; }
+  .video-section iframe {
+    height: 100%;
+    width: 100%; }
+  .video-section .iframe-wrapper {
+    height: 218px; }
   .video-section .splide__list {
     display: flex !important; }
     .video-section .splide__list li {
