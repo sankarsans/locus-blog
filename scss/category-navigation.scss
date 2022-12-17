@@ -73,9 +73,21 @@
         text-align: center;
     }
     .category-navigation{
+        background-color: transparent;
         .dropdown{
+            background-color: $dark-black;
             border-right: 0;
             margin-bottom: 10px;
+            padding: 8px;
+            .dropdown-toggle{
+                width: 100%;
+                text-align: left;
+                &::after{
+                    background: url(../images/icon-dropdown.svg) right 0 no-repeat;
+                    top: 19px;
+                    right: 16px;
+                }
+            }
         }
     }
 }
