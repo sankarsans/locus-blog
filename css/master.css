@@ -567,7 +567,9 @@ p {
 @media only screen and (max-width: 767.98px) {
   .author-info {
     text-align: center;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+    .author-info .author-info-wrapper img {
+      padding-bottom: 30px; } }
 .social-share {
   opacity: 1;
   transition: opacity 1s;

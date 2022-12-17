@@ -1,5 +1,5 @@
 <!-- banner start-->
-<section class="banner">
+<section class="banner text-center text-lg-start text-md-start">
    <div class="container">
       <div class="row">
          <div class="col-12 col-lg-4 col-md-12 pe-0 pe-lg-5">
