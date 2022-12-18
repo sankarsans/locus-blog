@@ -1,4 +1,4 @@
-<img src="images/element.svg" alt="" class="img-fluid">
+<div class="theme-divider"></div>
 <h2 class="main-heading">LOCUS LATEST BLOGS</h2>
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-1">
    <div class="col mb-4">

@@ -21,9 +21,14 @@
                 letter-spacing: 0px;
                 color: $theme-text;
                 padding: 10px 10px;
-
+                &:hover{
+                    font-family: $font-weight-semibold;
+                    transition: all 0.5s;
+                }
                 &.active{
                     border-bottom: 2px solid $theme-text;
+                    font-family: $font-weight-semibold;
+                    transition: all 0.5s;
                 }
             }
         }

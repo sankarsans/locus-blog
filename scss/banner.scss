@@ -1,5 +1,10 @@
 
 // banner-author section
+.banner-wrapper{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 40px #AFAFAF26;
+    padding: 15px 20px 15px 35px;
+}
 .author-wrapper{
     display: flex;
     align-items: center;

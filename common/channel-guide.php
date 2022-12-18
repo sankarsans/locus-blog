@@ -1,6 +1,6 @@
 <section class="channel-guide">
     <div class="text-center">
-        <img src="images/element.svg" class="img-fluid" alt="">
+        <div class="theme-divider"></div>
         <h2 class="main-heading pt-2">GET OUR GUIDE TO OMNICHANNEL RETAIL FULFILLMENT</h2>
 
         <button class="theme-btn mt-4">Download</button>

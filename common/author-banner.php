@@ -3,12 +3,12 @@
    <div class="container">
       <div class="row">
          <div class="col-12 col-lg-4 col-md-12 pe-0 pe-lg-5">
-            <img src="images/element.svg" class="img-fluid" alt="" class="img-fluid">
+            <div class="theme-divider"></div>
             <h2 class="sub-heading font-bold pb-4">AUTHOR: SIDDESH RAUT</h2>
             <img src="images/image-blog.png" class="img-fluid" alt="" class="img-fluid">
          </div>
          <div class="col-12 col-lg-8 col-md-12 ps-lg-5 ps-0">
-            <div class="banner-wrapper">
+            <div class="banner-wrapper pt-5">
                <h4 class="tag-heading pt-4">ABOUT THE AUTHOR</h4>
                <h4 class="font-medium">Siddhesh Raut
                </h4>

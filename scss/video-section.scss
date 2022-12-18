@@ -28,6 +28,29 @@
         }
         .author-wrapper{
             padding-top: 10px;
+            ul{
+                padding-left: 0;
+                display: flex;
+                li{
+                    width: auto;
+                    position: relative;
+                    color: $white;
+                    padding: 0;
+                    font-size: $font-14;
+                    padding: 0 15px;
+                    font-family: $font-weight-medium;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        height: 4px;
+                        width: 4px;
+                        background: $white;
+                        left: 0;
+                        bottom: 8px;
+                        border-radius: 50%;
+                    }
+                }
+            }
         }
     }
 }

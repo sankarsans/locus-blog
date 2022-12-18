@@ -28,13 +28,13 @@
                 <p class="pt-3 font-medium">When considering the costs associated with building your own solution, Walter said, “As much as 20% of the costs are around building and rollout. Costs accelerate when you are building and maintaining your own text stack during the support phase after the launch. You’re going to have to perform upgrades consistently to address and accommodate the growing demands of the customers and your business, or even carry out platform migrations to accommodate increases in scale and increase capacity. It goes on and on. So, contrary to what people think, ongoing costs really are the majority of overall costs. </p>
                 <p class="pt-4 font-medium">Unforeseen issues, hurdles, delays, and external factors dig deep into the IT budget and delay the golden market timeline that has other implications. Some surveys and studies suggest 52% of the IT projects do overtime budgets. 56% of these IT projects simply fall short of the original vision or the expected return on investment.</p>
 
-                <h2 class="sub-heading pt-5">Match the pace of innovation with evolving trends</h2>
+                <h2 class="sub-heading pt-5" id="matchPeace">Match the pace of innovation with evolving trends</h2>
                 <p class="pt-3 font-medium">“SaaS providers in the market are experienced in helping their customers deliver millions of orders or supporting millions of deliveries on an annual basis, and maybe even on a monthly basis. With continuous iterations of enhancements, these platforms offer features that solve a wide range of problems.  </p>
                 <p class="pt-4 font-medium">And that lets our other customers take advantage of those unique configurations and capabilities throughout the SaaS service. Such platforms are built to keep compatibility in mind, we have to be compatible with whatever’s going on in the market, we have to stay compatible in order to remain competitive, and deliver value to our customers. Not only are we good at building and scaling technology and delivering it to the market, but we’re good at building a vision and delivering on that vision for our customers.</p>
 
                 <img src="images/image-bigbasket.png" class="img-fluid pt-4" alt="" class="img-fluid">
 
-                <h2 class="sub-heading pt-5">Making the right decision with facts at hand</h2>
+                <h2 class="sub-heading pt-5" id="hittingPeace">Making the right decision with facts at hand</h2>
                 <p class="pt-3 font-medium">“Building your own solution presents a valid case, if the requirements are unique to your organization. You have to offset that against the advantages of a SaaS platform that is configurable, nimble, and can be deployed quickly, and where you can take advantage of the best practices of companies in your industry and even companies that are not necessarily in your industry. But their capabilities and functions might lend value to your organization, experience, and expertise.” </p>
                 <p class="pt-4 font-medium">Walt then covered how along these lines, Locus’ <a href="">Dispatch Management Platform</a> is a real-world ready end-to-end last-mile fulfillment solution that has been delivering excellence across the world over diverse industries including e-commerce, CPG, manufacturing service organizations, home service providers. He also spoke of the benefits of its modularity, its compatibility with existing TMS, OMS solutions, and how it has enabled 650+ million deliveries across 200+ clients in 30+ countries globally.</p>
                 <h2 class="sub-heading pt-5">To know how you can deploy Locus’ solutions to achieve last-mile excellence in relatively quick time frames</h2>
@@ -46,7 +46,7 @@
 
             </div>
          </div>
-         <div class="col-12 col-lg-4 col-md-12">
+         <div class="col-12 col-lg-4 col-md-12 popular-section">
             <?php include('common/social-share.php');?>
             <?php include('common/most-popular.php');?>
             <?php include('common/picks.php');?>

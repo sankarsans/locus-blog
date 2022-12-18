@@ -3,7 +3,7 @@
    <div class="container">
       <div class="">
          <div class="text-center theme-heading">
-            <img src="images/element.svg" class="m-auto" alt="" class="img-fluid">
+            <div class="theme-divider title-divider"></div>
             <h2 class="main-heading">LOCUS WEBINAR SNIPPETS</h2>
          </div>
          <div id="image-slider" class="webinar-splide splide">
