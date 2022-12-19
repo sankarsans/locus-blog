@@ -137,6 +137,7 @@ p {
   transition: all 0.5s; }
   .theme-btn:hover {
     outline-offset: 0;
+    color: #FFFFFF;
     transition: all 0.5s; }
 
 .theme-divider {
@@ -414,7 +415,7 @@ p {
 
 @media only screen and (max-width: 991.98px) {
   .subscribe-section input[type="text"] {
-    margin: 25px 0;
+    margin: 0 0 25px 0;
     width: 100%; } }
 @media only screen and (max-width: 767.98px) {
   .subscribe-section {
@@ -541,6 +542,8 @@ p {
       padding-top: 10px;
       display: inline-block;
       padding-left: 0; } }
+.details-banner .banner-wrapper {
+  box-shadow: none; }
 .details-banner p {
   line-height: 29px; }
   .details-banner p a {
