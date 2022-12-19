@@ -9,15 +9,19 @@
             </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <p><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
-            </div>
+                <div class="accordion-body">
+                    <ul>
+                        <li><a href="#matchPeace">Name one</a></li>
+                        <li><a href="#hittingPeace">name two</a></li>
+                        <li><a href="#hittingPeace">name three</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" >
-                <a href="#matchPeace" >
+                <a href="#matchPeace">
                     <span>2.</span> Match the pace of innovation with evolving trends
                 </a>
             </button>
@@ -41,9 +45,13 @@
             </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <p><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
-            </div>
+                <div class="accordion-body">
+                    <ul>
+                        <li><a href="#matchPeace">Name one</a></li>
+                        <li><a href="#hittingPeace">name two</a></li>
+                        <li><a href="#hittingPeace">name three</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

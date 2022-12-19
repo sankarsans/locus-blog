@@ -60,6 +60,16 @@
             font-family: $font-weight-medium;
             line-height: 24px;
             font-size: $font-14;
+            ul{
+                li{
+                    a{
+                        color: $theme-text;
+                        &:hover{
+                            color: $link-color;
+                        }
+                    }
+                }
+            }
        }
        .accordion-collapse{
         border: none;
@@ -80,5 +90,8 @@
         left: 50%;
         transform: translateX(-50%);
        }
+    }
+    .accordion-button{
+        line-height: 26px;
     }
 }

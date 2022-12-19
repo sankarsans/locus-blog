@@ -545,7 +545,7 @@ p {
   .banner-wrapper {
     background: #FFFFFF;
     box-shadow: 0px 3px 40px #AFAFAF26;
-    padding: 10px 25px; }
+    padding: 10px 0; }
 
   .details-banner .author-wrapper {
     display: block; }
@@ -617,6 +617,10 @@ p {
       font-family: "sharp_sansmedium";
       line-height: 24px;
       font-size: 0.875rem; }
+      .table-content .accordion .accordion-body ul li a {
+        color: #290A38; }
+        .table-content .accordion .accordion-body ul li a:hover {
+          color: #14B5F0; }
     .table-content .accordion .accordion-collapse {
       border: none; }
   .table-content ul {
@@ -628,7 +632,10 @@ p {
 @media only screen and (max-width: 767.98px) {
   .theme-divider::after {
     left: 50%;
-    transform: translateX(-50%); } }
+    transform: translateX(-50%); }
+
+  .accordion-button {
+    line-height: 26px; } }
 .related-tags {
   margin: 40px 0;
   padding: 30px 0;
