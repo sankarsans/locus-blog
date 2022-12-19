@@ -39,6 +39,12 @@
                     font-size: $font-14;
                     padding: 0 15px;
                     font-family: $font-weight-medium;
+                    &:first-child{
+                        padding-left: 0;
+                        &::after{
+                            display: none;
+                        }
+                    }
                     &::after{
                         position: absolute;
                         content: '';

@@ -6,10 +6,10 @@
             <div class="theme-divider"></div>
             <h2 class="sub-heading font-bold pb-4">AUTHOR: SIDDESH RAUT</h2>
          </div>
-         <div class="col-12 col-lg-4 col-md-12 pe-0 pe-lg-5">
+         <div class="col-12 col-lg-4 col-md-12 pe-lg-0 pe-lg-5">
             <img src="images/image-blog.png" class="img-fluid" alt="" class="img-fluid">
          </div>
-         <div class="col-12 col-lg-8 col-md-12 ps-lg-4 ps-0">
+         <div class="col-12 col-lg-8 col-md-12 ps-lg-4 ps-lg-0">
             <div class="banner-wrapper pt-4">
                <h4 class="tag-heading">ABOUT THE AUTHOR</h4>
                <h4 class="font-medium">Siddhesh Raut

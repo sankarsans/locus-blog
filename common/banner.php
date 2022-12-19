@@ -2,14 +2,14 @@
 <section class="banner mb-5">
    <div class="container">
       <div class="row">
-         <div class="col-12 col-lg-6 col-md-12 pe-0 banner-content position-relative">
+         <div class="col-12 col-lg-6 col-md-12 pe-lg-0 banner-content position-relative">
             <img src="images/image-blog.png" class="img-fluid" alt="" class="img-fluid">
             <div class="feature-tag tag-skew">
                <p>FEATURE OF THE WEEK</p>
             </div>
          </div>
-         <div class="col-12 col-lg-6 col-md-12 ps-0">
-            <div class="banner-wrapper">
+         <div class="col-12 col-lg-6 col-md-12 ps-lg-0">
+            <div class="banner-wrapper home-banner">
                <h4 class="tag-heading pt-4">CATEGORY</h4>
                <h2 class="banner-heading">In Focus: 5 Factors To Consider On The “Build Vs Buy” Decision on
                   Last-Mile Software Solution

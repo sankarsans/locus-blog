@@ -21,4 +21,19 @@
             margin-top: 20px;
         }
     }
+    .theme-btn-group{
+        button{
+            width: 70%;
+        }
+    }
+}
+
+
+@media only screen and (max-width:350.98px){
+    .theme-btn-group{
+        button{
+            width: 85%;
+            font-size: $font-16;
+        }
+    }
 }
