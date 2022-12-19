@@ -45,6 +45,7 @@
         <?php include('common/subscribe.php');?>
         
     </div>
+    <?php include('common/modal.php');?>
 
     <?php include('common/footer-include.php');?>
 </body>
