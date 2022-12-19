@@ -25,6 +25,13 @@
     }
 }
 
+.blog-category{
+    box-shadow: none;
+    .author-img{
+        width: 70px;
+    }
+}
+
 .banner-heading{
     font-family: $font-weight-bold;
     line-height: 42px;

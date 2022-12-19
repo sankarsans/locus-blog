@@ -1,5 +1,5 @@
 <div class="theme-divider"></div>
-<h2 class="main-heading">LOCUS LATEST BLOGS</h2>
+<h2 class="main-heading pt-0">LOCUS LATEST BLOGS</h2>
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-1">
    <div class="col mb-4">
       <div class="card h-100 blog-wrapper">

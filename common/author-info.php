@@ -8,7 +8,7 @@
                 <p class="font-bold pb-2">ABOUT THE AUTHOR</p>
                 <h3 class="sub-heading text-normal pt-2">Siddhesh Raut</h3>
                 <p>An endlessly curious reader and writer. When not working, Siddhesh also loves taking long walks, learning something new, and cooking the occasional curry.</p>
-                <button href="" class="theme-btn mt-4">Read other blogs from this author</button>
+                <a href="author.php" class="theme-btn mt-4 d-inline-block">Read other blogs from this author</a>
 
             </div>
         </div>

@@ -453,7 +453,7 @@ p {
     .blog-wrapper .card-footer a {
       padding: 10px 15px 10px; }
   .blog-wrapper .wrapper-content {
-    padding: 20px 30px 0;
+    padding: 20px 30px 15px;
     box-shadow: 0px 3px 40px #AFAFAF29; }
     .blog-wrapper .wrapper-content .description {
       overflow: hidden;
@@ -501,6 +501,11 @@ p {
       padding-left: 10px; }
   .author-wrapper img {
     width: 40px; }
+
+.blog-category {
+  box-shadow: none; }
+  .blog-category .author-img {
+    width: 70px; }
 
 .banner-heading {
   font-family: "sharp_sansbold";
