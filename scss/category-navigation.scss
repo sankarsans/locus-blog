@@ -1,6 +1,8 @@
 .category-navigation{
-    background-color: $dark-black;
-    padding: 15px 0 10px;
+    .row{
+        background-color: $dark-black;
+        padding: 15px 0 10px;
+    }
     .input-group-append{
         border-radius: 0;
         background: $sky-blue;
@@ -59,6 +61,7 @@
         .input-group{
             width: 100%;
             margin-top: 20px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -73,7 +76,13 @@
         text-align: center;
     }
     .category-navigation{
-        background-color: transparent;
+        .row{
+            background-color: transparent;
+        }
+        .input-group{
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
         .dropdown{
             background-color: $dark-black;
             border-right: 0;
