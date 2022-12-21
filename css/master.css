@@ -88,8 +88,9 @@
     padding: 0; }
   .link-button::after {
     display: inline-block;
-    content: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.20007 0.699951L7.60007 4.1001H4.20007L0.800049 0.699951H4.20007Z' fill='%2314B4EF' /%3E%3Cpath d='M4.20007 4.1001L0.800049 7.5H4.20007L7.60007 4.1001H4.20007Z' fill='%2314B4EF' /%3E%3C/svg%3E");
-    padding-left: 0.25rem; }
+    content: url("data:image/svg+xml,%3Csvg viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.20007 0.699951L7.60007 4.1001H4.20007L0.800049 0.699951H4.20007Z' fill='%2314B4EF' /%3E%3Cpath d='M4.20007 4.1001L0.800049 7.5H4.20007L7.60007 4.1001H4.20007Z' fill='%2314B4EF' /%3E%3C/svg%3E");
+    padding-left: 0.25rem;
+    width: 14px; }
   .link-button:hover {
     color: #14B5F0; }
     .link-button:hover::after {
