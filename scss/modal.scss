@@ -1,8 +1,8 @@
 .modal{
     .modal-dialog{
-        width: 100%;
-        height: 100%;
-        max-width: 100%;   
+        // width: 100%;
+        // height: 100%;
+        // max-width: 100%;   
         .modal-body{
             padding: 0;
             iframe{
@@ -12,10 +12,10 @@
         }
     }
     .modal-content{
-        width: 900px;
-        height: 506px;  
-        margin: 0 auto; 
+        width: 768px;
+        margin: 0 auto;
         overflow: visible;
+        aspect-ratio: 16/9;
     }
     .btn-close{
         position: absolute;
@@ -25,15 +25,20 @@
         opacity: 1;
         font-size: $font-22;
         font-family: $font-weight-medium;
+        background: transparent;
     }
 }
 
 
+@media only screen and (min-width:768px) and (max-width:991.98px){
+    .modal-dialog{
+        max-width: 90%;
+    }
+}
+
 
 @media only screen and (max-width:991.98px){
-    .modal .modal-content{
-        width: 90%;
-    }
+
 }
 
 
